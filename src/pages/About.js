@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import './About.css';
 
 function About() {
@@ -6,6 +7,7 @@ function About() {
     <div className="about">
       <h1>About Me</h1>
       <p>About Manasa Ullam...</p>
+      <Footer />
     </div>
   );
 }
