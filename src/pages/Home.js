@@ -22,7 +22,7 @@ function Home() {
           <h2>Software Developer</h2>
         </div>
         <div className="right-content">
-          <button onClick={handleVideoClick}>Watch my short video</button>
+          <button onClick={handleVideoClick}>Watch my short intro video</button>
           <button onClick={() => window.open('/resume.pdf')}>Download my resume</button>
           <Link to="/contact">
             <button>Contact Info</button>
