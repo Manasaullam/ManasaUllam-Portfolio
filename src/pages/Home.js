@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
-import Footer from '../components/Footer';
 
 import './Home.css';
 
@@ -43,39 +42,41 @@ function Home() {
       <div className="sections">
         <div className="section">
           <h3>About Me</h3>
-          <p>Brief introduction about yourself
-          Brief introduction about yourself
-          Brief introduction about yourself
-          .</p>
+          <p>My name is Manasa Ullam. I am a recent graduate from Bowling Green State University, holding a Master's degree in Computer Science with a GPA of 3.88.</p>
+          <p>Over the last three years, I have honed my skills as a Full-Stack Developer.I am currently on the lookout for opportunities</p>
+         
           <Link to="/about">
             <button>Learn More</button>
           </Link>
         </div>
         <div className="section">
           <h3>Experience</h3>
-          <p>Details about My work experience.</p>
+          <p>With over three years of experience, I specialize in developing scalable web apps and robust microservices, leveraging advanced technologies and Agile methodologies.</p>
+          <p>I also have significant expertise in cloud infrastructure, particularly AWS, to deploy secure, scalable applications.</p>
           <Link to="/experience">
             <button>Learn More</button>
           </Link>
         </div>
         <div className="section">
           <h3>Projects</h3>
-          <p>Information about My projects.</p>
+          <p>Developed a cross-platform mobile app for efficient code enforcement, featuring real-time tracking, geolocation, and advanced data visualization.</p>
+          <p>Built a web-based video chatting platform enabling real-time communication without plugins. Includes peer-to-peer connections and adaptive interfaces.</p>
+
           <Link to="/projects">
             <button>Learn More</button>
           </Link>
         </div>
         <div className="section">
           <h3>Contact Me</h3>
-          <p>How to get in touch with Me.</p>
-          <Link to="/contact">
-            <button>Learn More</button>
-          </Link>
+          <p>Email: umanasa13@gmail.com</p>
+          <p>Mobile: +419-378-8408</p>
+          <p>Location: Bowling Green, OH 43402 USA</p>
         </div>
       </div>
-      <Footer />
+      <div className="footer1">
+        <h2>Copyright © 2024 Manasa Ullam. All Rights Reserved.</h2>
+      </div>
     </div>
   );
 }
-
 export default Home;

@@ -6,7 +6,7 @@ function Contact() {
     <div className="contact-container">
       <h4>Get In Touch</h4>
       <div className="contact-details">
-        <h3>Contact Me</h3>
+        <h2>Contact Me</h2>
         <div className="contact-item">
           <img src="/email-icon.png" alt="Email" className="contact-icon" />
           <p>Email: umanasa13@gmail.com</p>

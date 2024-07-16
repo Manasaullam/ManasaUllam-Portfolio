@@ -71,4 +71,22 @@
   .github-link:hover {
     background-color: #28c2b1;
   }
-  
+  .footer1 h2 {
+    font-size: 0.8em;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #0ec9b9;
+    padding: 10px 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+  }

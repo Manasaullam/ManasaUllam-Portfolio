@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import './Experience.css';
 
 function Experience() {
@@ -50,7 +49,9 @@ function Experience() {
           </ul>
         </div>
       </div>
-      <Footer />
+      <div className="footer1">
+        <h2>Copyright © 2024 Manasa Ullam. All Rights Reserved.</h2>
+      </div>
     </div>
   );
 }

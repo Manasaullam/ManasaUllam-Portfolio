@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  min-height: 100vh;  /* This ensures that the app fills the entire height */
+  position: relative; /* For absolute positioning of the footer */
+  padding-bottom: 50px; /* Space for the footer */
+}

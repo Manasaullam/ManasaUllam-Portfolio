@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../components/Footer';
 import './Projects.css';
 
 function Projects() {
@@ -28,7 +27,9 @@ function Projects() {
           <a href="https://github.com/your-repo/video-chatting-website" className="github-link">Github</a>
         </div>
       </div>
-      <Footer />
+      <div className="footer1">
+        <h2>Copyright © 2024 Manasa Ullam. All Rights Reserved.</h2>
+      </div>
     </div>
   );
 }

@@ -89,6 +89,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 .section {
@@ -125,4 +126,23 @@
 .section:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+.footer1 h2 {
+  font-size: 0.8em;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #0ec9b9;
+  padding: 10px 20px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
