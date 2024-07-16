@@ -13,7 +13,7 @@ function Projects() {
             Developed a cross-platform mobile application to enhance code enforcement with real-time tracking and management of violations. The application integrates precise geolocation and navigation features, along with dynamic data visualization tools for effective reporting and analytics.
           </p>
           <p><strong>Technologies Used:</strong> React Native, Google Maps API, React Native Gifted Charts, Firebase.</p>
-          <a href="https://github.com/your-repo/city-code-enforcement" className="github-link">Github</a>
+          <a href="https://github.com/Manasaullam/CityCodeEnforcement" className="github-link">Github</a>
         </div>
       </div>
       <div className="project-card">
