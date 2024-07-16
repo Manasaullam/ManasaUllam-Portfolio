@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+
 import './Home.css';
 
 function Home() {
@@ -42,8 +43,9 @@ function Home() {
       <div className="sections">
         <div className="section">
           <h3>About Me</h3>
-          <p>Brief introduction about Myself
-          
+          <p>Brief introduction about yourself
+          Brief introduction about yourself
+          Brief introduction about yourself
           .</p>
           <Link to="/about">
             <button>Learn More</button>
