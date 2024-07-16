@@ -24,7 +24,7 @@ function Projects() {
             Created a web-based video chatting platform that supports real-time, plugin-free video conferencing accessible globally. The website features advanced peer-to-peer connections, chat room management, and responsive cross-platform interfaces, ensuring an enhanced video streaming and user interaction experience.
           </p>
           <p><strong>Technologies Used:</strong> Adobe Flash Media Server, Scaledrone, WebRTC, JavaScript, HTML5 APIs.</p>
-          <a href="https://github.com/your-repo/video-chatting-website" className="github-link">Github</a>
+          <a href="https://github.com/Manasaullam/Video-Chatting-Website" className="github-link">Github</a>
         </div>
       </div>
       <div className="footer1">
