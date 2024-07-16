@@ -17,7 +17,7 @@ function Projects() {
         </div>
       </div>
       <div className="project-card">
-        <img src="/video-chatting-website.png" alt="Video Chatting Website" className="project-img"/>
+        <img src="/video-chatting-website.jpg" alt="Video Chatting Website" className="project-img"/>
         <div className="project-details">
           <h2>Video Chatting Website</h2>
           <p>
