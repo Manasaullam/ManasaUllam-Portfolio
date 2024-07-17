@@ -3,12 +3,12 @@
     padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
-
+  
 .about h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
-
+  
 .about-content {
     display: flex;
     justify-content: center;
@@ -17,26 +17,27 @@
     gap: 20px; /* Reduced the gap */
     margin-top: 20px;
 }
-
+  
 .about-left {
     flex: 1;
-    margin-left: 50px; /* Adjusted margin */
+    margin-left: 200px; /* Adjusted margin */
 }
-
+  
 .about-right {
     flex: 2;
     text-align: left;
     max-width: 600px;
-    margin-right: 50px; /* Adjusted margin */
+    margin-right: 150px; /* Adjusted margin */
     margin-top: 50px;
+    
 }
-
+  
 .about-img {
-    border-radius: 5%; /* Adjusted border-radius */
+    border-radius: 1%;
     width: 362px;
     height: 432px;
 }
-
+  
 .footer {
     background-color: #0ec9b9;
     color: black;
