@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ManasaUllam-Portfolio">
       <div className="App">
         <Header />
         <Routes>

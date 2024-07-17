@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
-
 import './Home.css';
 
 function Home() {
@@ -18,12 +17,12 @@ function Home() {
       </div>
       <div className="main-content">
         <div className="left-content">
-          <img src="/intro-image.jpeg" alt="Manasa Ullam" className="intro-img"/>
+          <img src={`${process.env.PUBLIC_URL}/intro-image.jpeg`} alt="Manasa Ullam" className="intro-img" />
           <h2>Software Developer</h2>
         </div>
         <div className="right-content">
           <button onClick={handleVideoClick}>Watch my short intro video</button>
-          <button onClick={() => window.open('/resume.pdf')}>Download my resume</button>
+          <button onClick={() => window.open(`${process.env.PUBLIC_URL}/resume.pdf`)}>Download my resume</button>
           <Link to="/contact">
             <button>Contact Info</button>
           </Link>
@@ -34,7 +33,7 @@ function Home() {
         <h2>Get to Know More</h2>
         <div className="video-wrapper">
           <video ref={videoRef} width="600" controls>
-            <source src="/intro-video.mp4" type="video/mp4"/>
+            <source src={`${process.env.PUBLIC_URL}/intro-video.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -44,7 +43,6 @@ function Home() {
           <h3>About Me</h3>
           <p>My name is Manasa Ullam. I am a recent graduate from Bowling Green State University, holding a Master's degree in Computer Science with a GPA of 3.88.</p>
           <p>Over the last three years, I have honed my skills as a Full-Stack Developer.I am currently on the lookout for opportunities</p>
-         
           <Link to="/about">
             <button>Learn More</button>
           </Link>
@@ -61,7 +59,6 @@ function Home() {
           <h3>Projects</h3>
           <p>Developed a cross-platform mobile app for efficient code enforcement, featuring real-time tracking, geolocation, and advanced data visualization.</p>
           <p>Built a web-based video chatting platform enabling real-time communication without plugins. Includes peer-to-peer connections and adaptive interfaces.</p>
-
           <Link to="/projects">
             <button>Learn More</button>
           </Link>
@@ -79,4 +76,5 @@ function Home() {
     </div>
   );
 }
+
 export default Home;
