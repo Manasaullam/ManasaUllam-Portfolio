@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ManasaUllam-Portfolio/static/css/main.184eab23.css",
-    "main.js": "/ManasaUllam-Portfolio/static/js/main.6a87b7fc.js",
+    "main.js": "/ManasaUllam-Portfolio/static/js/main.c428e6e3.js",
     "static/js/453.1407b060.chunk.js": "/ManasaUllam-Portfolio/static/js/453.1407b060.chunk.js",
     "index.html": "/ManasaUllam-Portfolio/index.html",
     "main.184eab23.css.map": "/ManasaUllam-Portfolio/static/css/main.184eab23.css.map",
-    "main.6a87b7fc.js.map": "/ManasaUllam-Portfolio/static/js/main.6a87b7fc.js.map",
+    "main.c428e6e3.js.map": "/ManasaUllam-Portfolio/static/js/main.c428e6e3.js.map",
     "453.1407b060.chunk.js.map": "/ManasaUllam-Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.184eab23.css",
-    "static/js/main.6a87b7fc.js"
+    "static/js/main.c428e6e3.js"
   ]
 }
