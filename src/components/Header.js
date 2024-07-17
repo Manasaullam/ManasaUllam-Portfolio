@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src={`${process.env.PUBLIC_URL}/profile-image.jpg`} alt="Manasa Ullam" className="profile-img"/>
+        <img src={`${process.env.PUBLIC_URL}/profile-image.png`} alt="Manasa Ullam" className="profile-img"/>
         <span>MANASA ULLAM</span>
       </div>
       <nav>
