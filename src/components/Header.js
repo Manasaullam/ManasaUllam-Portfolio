@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <img src={`${process.env.PUBLIC_URL}/profile-image.jpeg`} alt="Manasa Ullam" className="profile-img" />
+        <img src={`${process.env.PUBLIC_URL}/profile-image.jpeg`} alt="Manasa Ullam" className="profile-img"/>
         <span>MANASA ULLAM</span>
       </div>
       <nav>
@@ -18,6 +18,7 @@ function Header() {
           <li><Link to="/contact">CONTACT ME</Link></li>
         </ul>
       </nav>
+      
     </header>
   );
 }
