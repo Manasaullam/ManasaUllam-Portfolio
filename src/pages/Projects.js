@@ -6,7 +6,7 @@ function Projects() {
     <div className="projects">
       <h1>Projects</h1>
       <div className="project-card">
-        <img src="/splash.jpeg" alt="City Code Enforcement Mobile Application" className="project-img"/>
+        <img src={`${process.env.PUBLIC_URL}/splash.jpeg`} alt="City Code Enforcement Mobile Application" className="project-img" />
         <div className="project-details">
           <h2>City Code Enforcement Mobile Application</h2>
           <p>
@@ -17,7 +17,7 @@ function Projects() {
         </div>
       </div>
       <div className="project-card">
-        <img src="/video-chatting-website.jpg" alt="Video Chatting Website" className="project-img"/>
+        <img src={`${process.env.PUBLIC_URL}/video-chatting-website.jpg`} alt="Video Chatting Website" className="project-img" />
         <div className="project-details">
           <h2>Video Chatting Website</h2>
           <p>
